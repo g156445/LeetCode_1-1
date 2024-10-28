@@ -1,0 +1,43 @@
+class Solution:
+    def k_bigger_0_full_list(self, code: List[int], k: int) -> List[int]:
+        full_value = code.copy()  # 初始化为原列表
+        original_code = code.copy()  # 保存原列表
+
+        # 循环扩展 full_value 列表
+        for i in range(1, math.ceil(k / len(code)) + 1):  # 循环 k 次
+            if i % 2 == 1:  # 奇数次扩展翻转列表
+                full_value += original_code[::-1]
+            else:  # 偶数次扩展原列表
+                full_value += original_code
+        return full_value
+
+    def decrypt(self, code: List[int], k: int) -> List[int]:
+        result = [0] * len(code)
+
+        if k > 0:
+            for location in range(len(code)):
+                # 计算窗口和
+                window_sum = sum(code[(location + j) % len(code)] for j in range(1, k + 1))  # 修复为取接下来的 k 个元素
+                result[location] = window_sum
+
+        elif k < 0:
+            for location in range(len(code)):
+                # 计算前 |k| 个元素的和
+                window_sum = sum(code[(location + j) % len(code)] for j in range(k, 0))  # k 是负数
+                result[location] = window_sum
+
+        else:
+            # k == 0 的情况
+            result = [0] * len(code)
+
+        return result
+
+
+# 示例
+solution = Solution()
+
+# 测试输入
+code = [5, 7, 1, 4]
+k = 3
+output = solution.decrypt(code, k)
+print(output)  # 输出: [12, 10, 16, 13]
