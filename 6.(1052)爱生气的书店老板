@@ -1,3 +1,6 @@
+import math
+
+
 class Solution:
     def k_bigger_0_full_list(self, code: List[int], k: int) -> List[int]:
         full_value = code.copy()  # 初始化为原列表
