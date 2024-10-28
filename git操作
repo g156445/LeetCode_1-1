@@ -1,0 +1,46 @@
+将 GitHub 连接到本地的 PyCharm 并自由实现文件上传或撤回操作，你可以按照以下步骤进行：
+
+        ### 1. 安装 Git
+            确保你已经在本地电脑上安装了 Git。如果还没有安装，可以去 [Git 官方网站](https://git-scm.com/) 下载并安装。
+
+        ### 2. 配置 Git
+            安装好 Git 后，打开命令行工具 (例如：Terminal 或者 Git Bash)，并运行以下命令配置你的 Git 用户名和邮箱：
+            ```bash
+            git config --global user.name "Your Name"
+            git config --global user.email "your-email@example.com"
+        ```
+
+        ### 3. 在 PyCharm 中启用 Git 集成
+            1. 打开 PyCharm，点击菜单栏上的 `File -> Settings` (Windows) 或 `PyCharm -> Preferences` (Mac)。
+            2. 在设置窗口，导航到 `Version Control -> Git`。
+            3. 确保 Git 的安装路径正确（一般会自动识别），然后点击 `Test` 确保一切正常。
+            4. 点击 `OK`。
+
+        ### 4. 将 PyCharm 项目连接到 GitHub
+            #### 选项 1：通过 PyCharm 直接创建新的 GitHub 仓库
+                1. 在 PyCharm 中打开你想要连接到 GitHub 的项目。
+                2. 点击 `VCS -> Import into Version Control -> Create Git Repository`，选择你的项目文件夹作为 Git 仓库。
+                3. 然后再次点击 `VCS -> Share Project on GitHub`。
+                4. 系统会提示你输入 GitHub 账号信息（首次使用时），登录后你可以选择是否在 GitHub 上创建一个新的仓库并推送你的代码。
+
+            #### 选项 2：从 GitHub 克隆仓库到 PyCharm
+                1. 在 GitHub 上找到你想要克隆的仓库，点击仓库页面的 `Code` 按钮并复制仓库的 HTTPS 或 SSH URL。
+                2. 在 PyCharm 中，点击 `VCS -> Get from Version Control`。
+                3. 在弹出的窗口中粘贴仓库 URL，并选择本地保存的位置，点击 `Clone`，PyCharm 会自动将仓库克隆到本地。
+
+        ### 5. 提交（Commit）和推送（Push）更改
+            1. 在 PyCharm 中修改或新增文件后，点击顶部工具栏的 `VCS -> Commit` 或使用快捷键 `Ctrl+K`（Windows）或 `Cmd+K`（Mac）。
+            2. 在弹出的提交窗口中，可以为本次提交添加注释，然后点击 `Commit` 或 `Commit and Push`。
+               - 如果点击 `Commit`，可以稍后点击 `VCS -> Git -> Push` 将更改推送到 GitHub。
+               - 如果选择 `Commit and Push`，则会自动提交并推送。
+
+        ### 6. 撤回操作
+            如果你想撤回某次提交或者修改，可以使用 Git 的撤回操作：
+            1. 回滚提交（reset to a previous commit）：右键点击项目中的某个文件或整个项目，选择 `Git -> Show History` 查看提交记录。右键点击你想要回滚到的提交，选择 `Reset Current Branch to Here`。
+            2. 撤销更改：如果只是撤销某个文件的未提交更改，右键点击该文件，选择 `Git -> Revert`。
+
+        ### 7. 拉取（Pull）和同步（Sync）操作
+            - 如果想要同步远程仓库的最新更改，点击 `VCS -> Git -> Pull`。
+            - 你也可以使用 `VCS -> Git -> Fetch` 仅获取远程的最新提交，不进行合并。
+
+通过以上步骤，你就可以在 PyCharm 中成功连接到 GitHub 并自由地进行文件的上传（提交/推送）和撤回操作了。如果遇到任何问题，请告诉我，我可以进一步帮助你解决。
