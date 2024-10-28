@@ -1,0 +1,38 @@
+# def getAverages(nums, k):
+
+nums = [7,4,3,9,1,8,5,2,6]
+k = 3
+
+n = len(nums)
+
+# 如果 nums = [7, 4, 3, 9, 1, 8, 5, 2, 6]，那么 len(nums) 是 9。
+# [-1] * 9 会生成一个包含 9 个 -1 的列表，即 [-1, -1, -1, -1, -1, -1, -1, -1, -1]。
+result = [-1] * len(nums)
+
+if k == 0:
+    result = nums[:]
+
+# k 大于等于数组长度的一半，直接返回 [-1] * n，因为没有足够的元素计算子数组
+if k >= n:
+    print(result)
+else:
+    # 计算第一个窗口的和
+    window_sum = sum(nums[:2 * k + 1])
+
+    # 遍历 i 从 k 到 n - k，计算每个位置的滑动窗口平均值
+    for i in range(k, n - k):
+        # 计算当前窗口的平均值并更新结果数组
+        # 用//去掉小数部分
+        result[i] = window_sum // (2 * k + 1)
+
+        # 更新窗口
+        # i = 2时，窗口范围是[0, 1, 2, 3, 4]，窗口的和是window_sum = 1 + 2 + 3 + 4 + 5 = 15
+        # i = 3时，需要更新窗口：减i - k = 1处的元素，即1。加上i + k + 1 = 5处的元素，即6
+        # 新的窗口和为window_sum = 15 - 1 + 6 = 20
+        if i + k + 1 < n:
+            window_sum = window_sum - nums[i - k] + nums[i + k + 1]
+
+
+print(result)
+
+
