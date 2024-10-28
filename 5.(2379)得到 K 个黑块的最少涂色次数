@@ -1,0 +1,30 @@
+def minimumRecolors(blocks, k):
+    start = 0
+    end = k
+    count_B = []  # 用于记录每个窗口中 'B' 的数量
+
+    # 判断字段是否存在 k 个连续的 'B'
+    for location in range(len(blocks) - k + 1):  # 确保不会越界
+        window_sum = blocks[start + location:end + location]
+
+        # 判断当前窗口是否包含 'W'
+        if 'W' in window_sum:
+            print(window_sum + ' 里面存在 W')
+
+        # 统计窗口中 'B' 的数量
+        count_B_num = window_sum.count('W')
+        count_B.append(count_B_num)  # 将统计到的 'B' 的数量加入列表
+
+        # 判断是否已经检查到最后一个有效的窗口
+        if location == len(blocks) - k:
+            break
+
+        # 判断是否存在连续的 k 个 'B'
+        if 'B' * k in window_sum:
+            print(window_sum + ' 存在 ' + str(k) + ' 个连续的 B')
+
+    return min(count_B)  # 返回所有窗口中 'B' 的最小值
+
+# 测试示例
+result = minimumRecolors(blocks="WBWBBBW", k=2)
+print("最小的 W 的数量是:", result)
