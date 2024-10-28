@@ -1,0 +1,17 @@
+# class Solution:
+#     def maxVowels(self, s: str, k: int) -> int:
+
+s = 'miaa'
+k=3
+
+num1=num2=0
+for location, value in enumerate(s):
+    if value in 'aeiou':
+        num1+=1
+    if location < k -1:
+        continue
+    num2 = max(num1,num2)
+
+    if s[location-k+1] in 'aeiou':
+        num1-=1
+print(num2)
