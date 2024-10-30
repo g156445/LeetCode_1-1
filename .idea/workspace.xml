@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="上传2024/10/29的python技巧总结">
-      <change afterPath="$PROJECT_DIR$/9.(2461)长度为 K 子数组中的最大和.py" afterDir="false" />
+    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="上传1-1-9题">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.(2461)长度为K子数组中的最大和.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.(2461)长度为K子数组中的最大和.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2o3hCKpq5I5XdfyacD8X9X4uPtx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -119,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730211790336</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="上传1-1-9题">
+      <created>1730274014322</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730274014322</updated>
+    </task>
+    <task id="LOCAL-00012" summary="上传1-1-9题">
+      <created>1730274206847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730274206847</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -155,6 +173,7 @@
     <MESSAGE value="添加题单1的leetcode题顺序" />
     <MESSAGE value="力扣2841：几乎唯一子数组的最大和" />
     <MESSAGE value="上传2024/10/29的python技巧总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="上传1-1-9题" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传1-1-9题" />
   </component>
 </project>
