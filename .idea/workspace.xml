@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="上传2024/10/29的python技巧总结">
+      <change afterPath="$PROJECT_DIR$/9.(2461)长度为 K 子数组中的最大和.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2o3hCKpq5I5XdfyacD8X9X4uPtx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gw/OneDrive/桌面/LeetCode_1-1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="" />
+      <created>1730104037060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730104037060</updated>
+    </task>
+    <task id="LOCAL-00001" summary="完善import包">
+      <created>1730104414502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730104414502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="创建7.(1461)检查一个字符串是否包含所有长度为 K 的二进制子串">
+      <created>1730104872204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730104872204</updated>
+    </task>
+    <task id="LOCAL-00003" summary="创建7.(1461)检查一个字符串是否包含所有长度为 K 的二进制子串s">
+      <created>1730106060612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730106060612</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新import">
+      <created>1730106644447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730106644447</updated>
+    </task>
+    <task id="LOCAL-00005" summary="上传git操作文件">
+      <created>1730107169393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730107169393</updated>
+    </task>
+    <task id="LOCAL-00006" summary="上传1-1-7">
+      <created>1730127644602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730127644602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="上传2024/10/28的python技巧总结">
+      <created>1730129033677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730129033677</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加题单1的leetcode题顺序">
+      <created>1730193868003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730193868003</updated>
+    </task>
+    <task id="LOCAL-00009" summary="力扣2841：几乎唯一子数组的最大和">
+      <created>1730211177699</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730211177699</updated>
+    </task>
+    <task id="LOCAL-00010" summary="上传2024/10/29的python技巧总结">
+      <created>1730211790336</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730211790336</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善import包" />
+    <MESSAGE value="创建7.(1461)检查一个字符串是否包含所有长度为 K 的二进制子串" />
+    <MESSAGE value="创建7.(1461)检查一个字符串是否包含所有长度为 K 的二进制子串s" />
+    <MESSAGE value="更新import" />
+    <MESSAGE value="上传git操作文件" />
+    <MESSAGE value="上传1-1-7" />
+    <MESSAGE value="上传2024/10/28的python技巧总结" />
+    <MESSAGE value="添加题单1的leetcode题顺序" />
+    <MESSAGE value="力扣2841：几乎唯一子数组的最大和" />
+    <MESSAGE value="上传2024/10/29的python技巧总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
