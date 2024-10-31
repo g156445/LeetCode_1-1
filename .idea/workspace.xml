@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="力扣2461. 长度为 K 子数组中的最大和">
-      <change beforePath="$PROJECT_DIR$/8.(2841)几乎唯一子数组的最大和.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.(2841)几乎唯一子数组的最大和.py" afterDir="false" />
+    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="上传1-1-10题">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.(1423)可获得的最大点数.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.(1423)可获得的最大点数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730277195814</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="力扣2461. 长度为 K 子数组中的最大和">
+      <created>1730277399958</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730277399958</updated>
+    </task>
+    <task id="LOCAL-00015" summary="上传1-1-10题">
+      <created>1730277522408</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730277522408</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -181,6 +196,7 @@
     <MESSAGE value="上传2024/10/29的python技巧总结" />
     <MESSAGE value="上传1-1-9题" />
     <MESSAGE value="力扣2461. 长度为 K 子数组中的最大和" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣2461. 长度为 K 子数组中的最大和" />
+    <MESSAGE value="上传1-1-10题" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传1-1-10题" />
   </component>
 </project>
