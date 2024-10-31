@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="力扣1423. 可获得的最大点数">
-      <change beforePath="$PROJECT_DIR$/a.python技巧.py" beforeDir="false" afterPath="$PROJECT_DIR$/a.python技巧.py" afterDir="false" />
-    </list>
+    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="上传2024/10/31的python技巧总结" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +162,28 @@
       <option name="project" value="LOCAL" />
       <updated>1730365140008</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="上传2024/10/31的python技巧总结">
+      <created>1730365583823</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730365583823</updated>
+    </task>
+    <task id="LOCAL-00018" summary="上传2024/10/31的python技巧总结">
+      <created>1730365598081</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730365598081</updated>
+    </task>
+    <task id="LOCAL-00019" summary="上传2024/10/31的python技巧总结">
+      <created>1730365676604</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730365676604</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -204,6 +223,7 @@
     <MESSAGE value="力扣2461. 长度为 K 子数组中的最大和" />
     <MESSAGE value="上传1-1-10题" />
     <MESSAGE value="力扣1423. 可获得的最大点数" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣1423. 可获得的最大点数" />
+    <MESSAGE value="上传2024/10/31的python技巧总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传2024/10/31的python技巧总结" />
   </component>
 </project>
