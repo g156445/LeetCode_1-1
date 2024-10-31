@@ -62,5 +62,11 @@ date: 2024/10/28
                             print(dictionary)
                             =>   {'name': 'Alice', 'age': 25, 'gender': 'Female'}
 
+技巧：  ”首尾相连“ 的窗口
+        解法：优先从列表的尾部开始计算
+            比如： 计算窗口为 k 的最大合时：
+                   a = sum(cardPoints[-k:])
+                   cardPoints[-k:] 提取列表的最后 k 个元素，这样直接计算边界的窗口元素，不需要考虑列表起始位置，代码简洁高效
+
 
 '''
