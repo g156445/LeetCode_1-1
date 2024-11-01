@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="上传1-1-11题思路">
+    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="力扣1297. 子串的最大出现次数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.(1297)子串的最大出现次数.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.(1297)子串的最大出现次数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730387569794</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="力扣1297. 子串的最大出现次数">
+      <created>1730452560268</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730452560268</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -243,6 +249,7 @@
     <MESSAGE value="上传2024/10/31的python技巧总结" />
     <MESSAGE value="上传1-1-11题" />
     <MESSAGE value="上传1-1-11题思路" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传1-1-11题思路" />
+    <MESSAGE value="力扣1297. 子串的最大出现次数" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣1297. 子串的最大出现次数" />
   </component>
 </project>
