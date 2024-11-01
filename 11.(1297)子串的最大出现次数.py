@@ -10,8 +10,21 @@
 '''
 from collections import Counter
 
-# class Solution:
-#     def maxFreq(self, s, maxLetters, minSize, maxSize):
+class Solution:
+    def maxFreq(self, s, maxLetters, minSize, maxSize):
+        for windows_move_location in range(minSize,maxSize):
+            for location in range(windows_move_location):
+                windows_count = Counter(s[location: windows_move_location])
+                print("windows_count:", dict(windows_count))
+        return
+
+s = "aababcaab"
+maxLetters = 2
+minSize = 3
+maxSize = 4
+
+solution = Solution()
+print(solution.maxFreq(s, maxLetters, minSize, maxSize))
 
 
 
