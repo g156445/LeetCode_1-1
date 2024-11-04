@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="力扣1297. 子串的最大出现次数" />
+    <list default="true" id="46a53f78-4ffd-4b25-9300-967d484599a0" name="Changes" comment="力扣2653. 滑动子数组的美丽值">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.(1297)子串的最大出现次数.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.(1297)子串的最大出现次数.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730478723964</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="力扣2653. 滑动子数组的美丽值">
+      <created>1730638322310</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730638322310</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -255,6 +265,7 @@
     <MESSAGE value="上传1-1-11题" />
     <MESSAGE value="上传1-1-11题思路" />
     <MESSAGE value="力扣1297. 子串的最大出现次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣1297. 子串的最大出现次数" />
+    <MESSAGE value="力扣2653. 滑动子数组的美丽值" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣2653. 滑动子数组的美丽值" />
   </component>
 </project>
