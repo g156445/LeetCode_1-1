@@ -69,4 +69,18 @@
                    cardPoints[-k:] 提取列表的最后 k 个元素，这样直接计算边界的窗口元素，不需要考虑列表起始位置，代码简洁高效
 
 
+技巧：  字典出现的最多key的次数
+        解法：用 max() 函数结合 Counter 字典的值
+            比如： from collections import Counter
+                  windows_count = {'aab': 2, 'aba': 1, 'bab': 1, 'caa': 1, 'aaba': 1, 'abab': 1}
+
+                  # 找到出现次数最多的子字符串及其次数
+                  max_substring = max(windows_count, key=windows_count.get)  # 获取出现次数最多的子字符串
+                  max_count = windows_count[max_substring]  # 获取该子字符串的出现次数
+                  print(f"出现次数最多的子字符串是 '{max_substring}'，次数为 {max_count}")
+
+                解释： max(windows_count, key=windows_count.get)：找到字典中值最大的键，也就是出现次数最多的子字符串。
+                      windows_count[max_substring]：查找该子字符串对应的出现次数。
+
+
 '''
