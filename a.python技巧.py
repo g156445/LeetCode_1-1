@@ -83,4 +83,11 @@
                       windows_count[max_substring]：查找该子字符串对应的出现次数。
 
 
+技巧：   sorted() 方法可将List从小到大排序
+            比如： numbers = [5, 3, 8, 1, 9]
+                  sorted_numbers = sorted(numbers)
+                  print(sorted_numbers)
+
+
+
 '''
